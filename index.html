@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav id ="desktop-nav">
+        <div class="logo">
+            E-Commerce
+        </div>
+        <div> 
+            <ul class="nav-links">
+                <!-- the <a> (anchor) element in HTML is used to create/define hyperlinks. -->
+                <li><a href="#home">Home</a></li>   
+                <!-- href attribute with a value that starts with # creates an internal link within the same page. -->
+                 <!-- the link points to an element with the id="about" within the same document. -->
+
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <!--  
+                <li><a href="#login">Login/Register</a></li> -->
+                
+
+            </ul>
+        </div>
+        <div class="login-container">
+            
+                <div class="login-details-container">
+                    <img src="login-logo.png" alt="Login icon"
+                    class="icon">
+                
+                
+                    
+                        <li><a href="#login" onlick="toggleMenu()"> Login / Register</a></li>
+                    
+                </div>
+
+        </div>
+    </nav>
+
+    <!-- <p style="background-image: url('corb_cooelr.jpg');"> -->
+
+    <!-- </p> -->
+
+
+    <section id="home">
+        <div class="section__content">
+            <h1 class="section__text__p1">
+                 MY SHOP
+            </h1>
+            <p class="section__text__p2">
+                We deliver everything.
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-shop"
+                onclick="location.href='./#shop'">
+                Shop Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <img src="arrow.png" alt="scroll-arrow" class="icon arrow"
+        onclick="location.href='./#shop'">
+
+    
+    <!-- SHOP SECTION -->
+    <section id="shop">
+        <div class="shop-bestseller-container">
+            <h1 class="bestseller-title">
+                BEST SELLERS
+            </h1>
+            <h1 class="bestseller-season">Summer</h1>
+            <div class="bestseller-items">
+                <div class="item-one">
+                    <div class="item-one-product-pic"></div>
+                    <h1 class="item-one-name">
+                        Eau de Parfum
+                    </h1>
+                    <h1 class="item-one-name-tag">Chanel</h1>
+                    <h1 class="item-one-price">$19.99</h1>
+                    <button class="btn-buy-one"
+                        onclick="location.href='./#shop'">
+                        Buy
+                    </button>
+                    
+                </div>
+                <div class="item-two">
+                    <div class="item-two-product-pic"></div>
+                    <h1 class="item-two-name">
+                        Skincare
+                    </h1>
+                    <h1 class="item-two-name-tag">Glossier</h1>
+                    <h1 class="item-two-price">$29.99</h1>
+                    <button class="btn-buy-two"
+                        onclick="location.href='./#shop'">
+                        Buy
+                    </button>
+                </div>
+                <div class="item-three">
+                    <div class="item-three-product-pic"></div>
+                    <h1 class="item-three-name">
+                        Body Oil
+                    </h1>
+                    <h1 class="item-three-name-tag">I'm Fabulous</h1>
+                    <h1 class="item-three-price">$15.99</h1>
+                    <button class="btn-buy-three"
+                        onclick="location.href='./#shop'">
+                        Buy
+                    </button>
+                </div>
+                <div class="item-four">
+                    <div class="item-four-product-pic"></div>
+                    <h1 class="item-four-name">
+                        Exfoliating Solution
+                    </h1>
+                    <h1 class="item-four-name-tag">Glossier</h1>
+                    <h1 class="item-four-price">$25.99</h1>
+                    <button class="btn-buy-four"
+                        onclick="location.href='./#shop'">
+                        Buy
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+    </section>
+
+    <img src="arrow.png" alt="scroll-arrow" class="icon arrow"
+        onclick="location.href='./#featured-items'">
+
+    <section id="featured-items">
+        <div class="featured-items-container">
+            <div class="featured-one-left"></div>
+            <div class="featured-one-right">
+                <div class="featured-right-desc">
+                    <h1 class="featured-right-desc-heading">
+                        Featured Products
+                    </h1>
+                    <h2 class="featured-right-desc-text1">
+                        Rejuvenate your skin 
+                    </h2>
+                    <h2 class="featured-right-desc-text2">
+                        with our Featured Products, formulated with antioxidant-rich botanical extracts 
+                    </h2>
+                    <h2 class="featured-right-desc-text3">
+                        that purifies, detoxifies and revitalizes your skin
+                    </h2>
+                    <div class="feature-products">
+                        <div class="featured-product-one">
+                            <h1 class="featured-product-one-name">
+                                Jade Roller 
+                            </h1>
+                            <h1 class="featured-product-one-tag">Facial Oil</h1>
+                            <h1 class="featured-product-one-price">$15.99</h1>
+                            <button class="btn-buy-featured-product-one"
+                                onclick="location.href='./#home'">
+                                    Learn More
+                            </button>
+                        </div>
+                        <div class="featured-product-two">
+                            <h1 class="featured-product-one-name">
+                                Blush
+                            </h1>
+                            <h1 class="featured-product-two-tag">lilah b.</h1>
+                            <h1 class="featured-product-two-price">$15.99</h1>
+                            <button class="btn-buy-featured-product-two"
+                                onclick="location.href='./#home'">
+                                    Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div> 
+    </section>
+
+
+
+    <section id="featured-items-two">
+        <div class="featured-items-two-container">
+            
+            <div class="featured-two-one-left">
+                
+                    <div class="feature-two-products">
+                        <div class="featured-two-product-one">
+                            <h1 class="featured-two-product-one-name">
+                                Jade Roller 
+                            </h1>
+                            <h1 class="featured-two-product-one-tag">Facial Oil</h1>
+                            <h1 class="featured-two-product-one-price">$15.99</h1>
+                            <button class="btn-buy-featured-two-product-one"
+                                onclick="location.href='./#home'">
+                                    Learn More
+                            </button>
+                        </div>
+                        <div class="featured-two-product-two">
+                            <h1 class="featured-two-product-one-name">
+                                Blush
+                            </h1>
+                            <h1 class="featured-two-product-two-tag">lilah b.</h1>
+                            <h1 class="featured-two-product-two-price">$15.99</h1>
+                            <button class="btn-buy-featured-two-product-two"
+                                onclick="location.href='./#home'">
+                                    Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+
+            <div class="featured-two-one-right"></div>
+        </div> 
+    </section>
+
+
+    <!-- Footer -->
+
+    <!--- Footer -->
+    <div class="footer">
+        <div class="heading">
+          <h2>Aneesha<sup>™</sup></h2>
+        </div>
+        <div class="content">
+          <div class="services">
+            <h4>Services</h4>
+            <p><a href="#">Bath Products</a></p>
+            <p><a href="#">Skin care</a></p>
+            <p><a href="#">Essential Oils</a></p>
+            <p><a href="#">Beauty Prodcuts</a></p>
+          </div>
+          <div class="social-media">
+            <h4>Social</h4>
+            
+            <p>
+              <a href="#"
+                ><i class="twitter"></i> Twitter</a
+              >
+            </p>
+            <p>
+              <a href="https://github.com/aneeshahehe"
+                ><i class="github"></i> Github</a
+              >
+            </p>
+            <p>
+              <a href='https://www.linkedin.com/in/aneeshabanik'
+                ><i class="facebook"></i> Linkedin</a
+              >
+            </p>
+            <p>
+              <a href="https://www.instagram.com/omosheeroi"
+                ><i class="instagram"></i> Instagram</a
+              >
+            </p>
+          </div>
+          <div class="links">
+            <h4>Quick links</h4>
+            <p><a href="#home">Home</a></p>
+            <p><a href="#shop">Shop</a></p>
+            <p><a href="#featured-items">Featured products</a></p>
+            <p><a href="#shop">Best Sellers</a></p>
+          </div>
+          <div class="details">
+            <h4 class="address">Address</h4>
+            <p>
+              India 
+              
+            </p>
+            <h4 class="mobile">Mobile</h4>
+            <p><a href="#">+91-8787******</a></p>
+            <h4 class="mail">Email</h4>
+            <p><a href="#">aneeshabanik@gmail.com</a></p>
+          </div>
+        </div>
+        <footer>
+          <hr />
+          © 2024 shopataneesha.
+        </footer>
+      </div>
+</body>
+</html>
